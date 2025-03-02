@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
+    <title>JavaScript DOM Tutorials</title>
+  </head>
+  <body>
+  	<div id="container">
+	    <header>
+	    	<div id="page-banner">
+	    		<h1 class="title">OpenBook</h1>
+          <form id="search-books">
+            <input type="text" placeholder="Search books..." />
+          </form>
+	    	</div>
+	    </header>
+
+	    <div id="book-list">
+	    	<h2 class="title">Last Books</h2>
+
+			<div class="clear"></div>
+
+	    	<ul>
+	    		<li>
+	    			<span class="name">book1</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name"> Book2</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Book3</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    		<li>
+	    			<span class="name">Book4</span>
+	    			<span class="delete">Delete</span>
+	    		</li>
+	    	</ul>
+	    </div>
+
+		<form id="hide">
+			<label>Hidden Books</label>
+	    	<input type="checkbox"/>
+	    </form>
+
+		<div class="clear"></div>
+
+	    <form id="add-book">
+	    	<input type="text" placeholder="Add a book..." />
+			<a class="button" href="#">Add</a>
+	    </form>
+
+    </div>
+    <script src="java.js"></script>
+  </body>
+</html>
